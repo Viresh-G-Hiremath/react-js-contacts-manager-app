@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  border: 2px solid darkgreen;
+  width: 480px;
+  margin: auto;
+}
+
+.navbar{
+  text-align: center;
+  border-bottom:2px solid darkgreen ;
+  padding: 10px 0;
+  background-color: lightgreen;
+}
+
+.home{
+  margin: 8px 0;
+  padding: 0 10px;
+}
+
+.footer{
+  text-align: center;
+  border-top:2px solid darkgreen;
+  padding: 10px 0;
+  background-color: lightgreen;
+}
+.form{
+  margin-bottom: 8px;
+}
+
+.inputs{
+  padding:5px 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.inputs input{
+  border: 2px solid darkgreen;
+  padding: 6px;
+  width: 100%;
+}
+.form button{
+  border:none;
+  padding: 8px;
+  width: 100%;
+  margin: 5px 0;
+  background-color: darkgreen;
+}
+
+img{
+  width: 34px;
+  height: 34px;
+}
+
+.contacts{
+  margin: 10px 0;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid darkgreen;
+  padding: 6px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.contact button{
+  padding: 5px;
+  width: 34px;
+  height: 34px;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+}
+
+.contact div{
+  margin: 0 6px;
+  width: 360px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 480px){
+  .app{
+    width: 100%;
+  }
+}
